@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24282406-4D4E-4769-92BE-58A77FB3B411}|ProjetoForns\\ProjetoForns.csproj|C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\projetoforns\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24282406-4D4E-4769-92BE-58A77FB3B411}|ProjetoForns\\ProjetoForns.csproj|solutionrelative:projetoforns\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24282406-4D4E-4769-92BE-58A77FB3B411}|ProjetoForns\\ProjetoForns.csproj|C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\projetoforns\\menugerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24282406-4D4E-4769-92BE-58A77FB3B411}|ProjetoForns\\ProjetoForns.csproj|solutionrelative:projetoforns\\menugerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24282406-4D4E-4769-92BE-58A77FB3B411}|ProjetoForns\\ProjetoForns.csproj|c:\\users\\odair\\user\\desktop\\projetoforns\\projetoforns\\projetoforns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24282406-4D4E-4769-92BE-58A77FB3B411}|ProjetoForns\\ProjetoForns.csproj|solutionrelative:projetoforns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24282406-4D4E-4769-92BE-58A77FB3B411}|ProjetoForns\\ProjetoForns.csproj|c:\\users\\odair\\user\\desktop\\projetoforns\\projetoforns\\projetoforns\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24282406-4D4E-4769-92BE-58A77FB3B411}|ProjetoForns\\ProjetoForns.csproj|solutionrelative:projetoforns\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24282406-4D4E-4769-92BE-58A77FB3B411}|ProjetoForns\\ProjetoForns.csproj|c:\\users\\odair\\user\\desktop\\projetoforns\\projetoforns\\projetoforns\\menuestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24282406-4D4E-4769-92BE-58A77FB3B411}|ProjetoForns\\ProjetoForns.csproj|solutionrelative:projetoforns\\menuestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24282406-4D4E-4769-92BE-58A77FB3B411}|ProjetoForns\\ProjetoForns.csproj|C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\projetoforns\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24282406-4D4E-4769-92BE-58A77FB3B411}|ProjetoForns\\ProjetoForns.csproj|solutionrelative:projetoforns\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24282406-4D4E-4769-92BE-58A77FB3B411}|ProjetoForns\\ProjetoForns.csproj|c:\\users\\odair\\user\\desktop\\projetoforns\\projetoforns\\projetoforns\\telavenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24282406-4D4E-4769-92BE-58A77FB3B411}|ProjetoForns\\ProjetoForns.csproj|solutionrelative:projetoforns\\telavenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24282406-4D4E-4769-92BE-58A77FB3B411}|ProjetoForns\\ProjetoForns.csproj|c:\\users\\odair\\user\\desktop\\projetoforns\\projetoforns\\projetoforns\\menuestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24282406-4D4E-4769-92BE-58A77FB3B411}|ProjetoForns\\ProjetoForns.csproj|solutionrelative:projetoforns\\menuestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24282406-4D4E-4769-92BE-58A77FB3B411}|ProjetoForns\\ProjetoForns.csproj|c:\\users\\odair\\user\\desktop\\projetoforns\\projetoforns\\projetoforns\\menugerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24282406-4D4E-4769-92BE-58A77FB3B411}|ProjetoForns\\ProjetoForns.csproj|solutionrelative:projetoforns\\menugerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TelaVenda.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\ProjetoForns\\TelaVenda.cs",
+              "RelativeDocumentMoniker": "ProjetoForns\\TelaVenda.cs",
+              "ToolTip": "C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\ProjetoForns\\TelaVenda.cs [Design]",
+              "RelativeToolTip": "ProjetoForns\\TelaVenda.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T02:44:23.305Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuEstoque.cs",
+              "DocumentMoniker": "C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\ProjetoForns\\MenuEstoque.cs",
+              "RelativeDocumentMoniker": "ProjetoForns\\MenuEstoque.cs",
+              "ToolTip": "C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\ProjetoForns\\MenuEstoque.cs",
+              "RelativeToolTip": "ProjetoForns\\MenuEstoque.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T02:42:59.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MenuGerente.cs",
+              "DocumentMoniker": "C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\ProjetoForns\\MenuGerente.cs",
+              "RelativeDocumentMoniker": "ProjetoForns\\MenuGerente.cs",
+              "ToolTip": "C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\ProjetoForns\\MenuGerente.cs",
+              "RelativeToolTip": "ProjetoForns\\MenuGerente.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T02:42:51.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MenuEstoque.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\ProjetoForns\\MenuEstoque.cs",
+              "RelativeDocumentMoniker": "ProjetoForns\\MenuEstoque.cs",
+              "ToolTip": "C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\ProjetoForns\\MenuEstoque.cs [Design]",
+              "RelativeToolTip": "ProjetoForns\\MenuEstoque.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T02:42:28.922Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\ProjetoForns\\Program.cs",
+              "RelativeDocumentMoniker": "ProjetoForns\\Program.cs",
+              "ToolTip": "C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\ProjetoForns\\Program.cs",
+              "RelativeToolTip": "ProjetoForns\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T02:36:23.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\ProjetoForns\\Form1.cs",
+              "RelativeDocumentMoniker": "ProjetoForns\\Form1.cs",
+              "ToolTip": "C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\ProjetoForns\\Form1.cs",
+              "RelativeToolTip": "ProjetoForns\\Form1.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T01:27:18.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuGerente.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\ProjetoForns\\MenuGerente.cs",
+              "RelativeDocumentMoniker": "ProjetoForns\\MenuGerente.cs",
+              "ToolTip": "C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\ProjetoForns\\MenuGerente.cs [Design]",
+              "RelativeToolTip": "ProjetoForns\\MenuGerente.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T01:29:41.569Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TelaLogin.cs",
+              "DocumentMoniker": "C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\ProjetoForns\\TelaLogin.cs",
+              "RelativeDocumentMoniker": "ProjetoForns\\TelaLogin.cs",
+              "ToolTip": "C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\ProjetoForns\\TelaLogin.cs*",
+              "RelativeToolTip": "ProjetoForns\\TelaLogin.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T01:18:17.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\ProjetoForns\\Form1.cs",
+              "RelativeDocumentMoniker": "ProjetoForns\\Form1.cs",
+              "ToolTip": "C:\\Users\\odair\\User\\Desktop\\ProjetoForns\\ProjetoForns\\ProjetoForns\\Form1.cs [Design]",
+              "RelativeToolTip": "ProjetoForns\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T12:59:41.726Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
