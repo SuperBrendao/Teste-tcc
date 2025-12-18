@@ -12,47 +12,32 @@ namespace ProjetoForns
 
         private void BTM_CadastroFun_Click(object sender, EventArgs e)
         {
-            ChamarMineTela(new CadFuncionario());
+            ChamarSubTela(new CadFuncionario());
         }
         private void BTM_VerSolicitaçoes_Click(object sender, EventArgs e)
         {
-            ChamarMineTela(new PermicaoTemp());
+            ChamarSubTela(new PermicaoTemp());
         }
 
         private void BTM_PedidoEstoque_Click(object sender, EventArgs e)
         {
-            ChamarMineTela(new VisualizarSolicitacao());
+            ChamarSubTela(new VisualizarSolicitacao());
         }
 
         private void TBM_MovimentacaoFum_Click(object sender, EventArgs e)
         {
-            ChamarMineTela(new MovimentacaoFun());
+            ChamarSubTela(new MovimentacaoFun());
         }
 
 
-
-
-
-
-        private void ChamarMineTela(UserControl Tela ) 
+        private void ChamarSubTela(UserControl tela, string tipo="")
         {
-            // 1. Garante que o ParentForm existe
-            if (this.ParentForm != null)
+            Form1 formPai = this.ParentForm as Form1;
+
+            if (formPai != null)
             {
-                // 2. Cria uma instância do novo UserControl que você quer exibir
-                UserControl novoConteudo = Tela; // Substitua pelo nome do seu novo UserControl
-
-                // 3. Converte o ParentForm para o tipo FormPrincipal (seu Form personalizado)
-                Form1 formPai = this.ParentForm as Form1;
-
-                // 4. Chama o método no FormPrincipal para fazer a troca
-                if (formPai != null)
-                {
-                    formPai.ExibirUserControl(novoConteudo);
-                }
+                formPai.ChamarMineTela(tela, nivelAcesso: tipo);
             }
-        }
-
-       
+        } 
     }
 }

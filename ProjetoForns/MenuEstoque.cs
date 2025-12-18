@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ProjetoForns
@@ -17,27 +10,35 @@ namespace ProjetoForns
             InitializeComponent();
         }
 
-
-
-
-
-
-        private void ChamarMineTela(UserControl Tela)
+        private void BTM_VizualizarEstoque_Click(object sender, EventArgs e)
         {
-            // 1. Garante que o ParentForm existe
-            if (this.ParentForm != null)
+            ChamarSubTela(new VisualizarEstoque());
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ChamarSubTela(new SolicitacaoReposicao());
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ChamarSubTela(new DarBaixaEstoque());
+        }
+
+        private void BTM_Cadastrar_Click(object sender, EventArgs e)
+        {
+            ChamarSubTela(new CadastrarProduto());
+        }
+
+
+
+        private void ChamarSubTela(UserControl tela, string tipo = "estoque")
+        {
+            Form1 formPai = this.ParentForm as Form1;
+
+            if (formPai != null)
             {
-                // 2. Cria uma instância do novo UserControl que você quer exibir
-                UserControl novoConteudo = Tela; // Substitua pelo nome do seu novo UserControl
-
-                // 3. Converte o ParentForm para o tipo FormPrincipal (seu Form personalizado)
-                Form1 formPai = this.ParentForm as Form1;
-
-                // 4. Chama o método no FormPrincipal para fazer a troca
-                if (formPai != null)
-                {
-                    formPai.ExibirUserControl(novoConteudo);
-                }
+                formPai.ChamarMineTela(tela, nivelAcesso: tipo);
             }
         }
     }

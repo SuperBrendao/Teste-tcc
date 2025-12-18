@@ -52,11 +52,23 @@
     <Compile Include="Cabesario.Designer.cs">
       <DependentUpon>Cabesario.cs</DependentUpon>
     </Compile>
+    <Compile Include="CadastrarProduto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CadastrarProduto.Designer.cs">
+      <DependentUpon>CadastrarProduto.cs</DependentUpon>
+    </Compile>
     <Compile Include="CadFuncionario.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="CadFuncionario.Designer.cs">
       <DependentUpon>CadFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DarBaixaEstoque.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DarBaixaEstoque.Designer.cs">
+      <DependentUpon>DarBaixaEstoque.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -90,17 +102,41 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SolicitacaoReposicao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SolicitacaoReposicao.Designer.cs">
+      <DependentUpon>SolicitacaoReposicao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaIntermediaria.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TelaIntermediaria.Designer.cs">
+      <DependentUpon>TelaIntermediaria.cs</DependentUpon>
+    </Compile>
     <Compile Include="TelaLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TelaLogin.Designer.cs">
       <DependentUpon>TelaLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="TelaLogo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TelaLogo.Designer.cs">
+      <DependentUpon>TelaLogo.cs</DependentUpon>
+    </Compile>
     <Compile Include="TelaVenda.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="TelaVenda.Designer.cs">
       <DependentUpon>TelaVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizarEstoque.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VisualizarEstoque.Designer.cs">
+      <DependentUpon>VisualizarEstoque.cs</DependentUpon>
     </Compile>
     <Compile Include="VisualizarSolicitacao.cs">
       <SubType>UserControl</SubType>
@@ -111,8 +147,14 @@
     <EmbeddedResource Include="Cabesario.resx">
       <DependentUpon>Cabesario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarProduto.resx">
+      <DependentUpon>CadastrarProduto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CadFuncionario.resx">
       <DependentUpon>CadFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DarBaixaEstoque.resx">
+      <DependentUpon>DarBaixaEstoque.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -137,12 +179,25 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SolicitacaoReposicao.resx">
+      <DependentUpon>SolicitacaoReposicao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaIntermediaria.resx">
+      <DependentUpon>TelaIntermediaria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TelaLogin.resx">
       <DependentUpon>TelaLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TelaLogo.resx">
+      <DependentUpon>TelaLogo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TelaVenda.resx">
       <DependentUpon>TelaVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizarEstoque.resx">
+      <DependentUpon>VisualizarEstoque.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VisualizarSolicitacao.resx">
       <DependentUpon>VisualizarSolicitacao.cs</DependentUpon>
@@ -159,6 +214,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2025-08-16 162208.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -20,25 +20,23 @@ namespace ProjetoForns
         [System.Runtime.InteropServices.DllImport("user32.dll")]
         public static extern bool ReleaseCapture();
 
-        public Cabesario()
+      
+        public Cabesario(string naoMostar1="", string naoMostar2 = "", string naoMostar3="")
         {
             InitializeComponent();
-        }
-      
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            this.ParentForm.Close();
-        }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            this.ParentForm.WindowState = FormWindowState.Maximized;
-        }
+            if (naoMostar1 == "VoltarLogin" || naoMostar2 == "VoltarLogin" || naoMostar3 == "VoltarLogin") 
+            {
+                Voltar.Visible= false;
+            }
+            if (naoMostar1 == "VoltarFuncionario" || naoMostar2 == "VoltarFuncionario"||naoMostar3 == "VoltarFuncionario")
+            {
+                VoltarFuncionario.Visible = false;
+            }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            this.ParentForm.WindowState = FormWindowState.Minimized;
+    
         }
+       
 
         private void Cabesario_MouseDown(object sender, MouseEventArgs e)
         {
@@ -49,15 +47,48 @@ namespace ProjetoForns
             }
         }
 
-        private void Cabesario_Load(object sender, EventArgs e)
+        private void Fechar_Click(object sender, EventArgs e)
         {
-
+            this.ParentForm.Close();
         }
 
-        private void pictureBox1_Click_1(object sender, EventArgs e)
+        private void Maximizar_Click(object sender, EventArgs e)
         {
+            this.ParentForm.WindowState = FormWindowState.Maximized;
+        }
+
+        private void Minimizar_Click(object sender, EventArgs e)
+        {
+            this.ParentForm.WindowState = FormWindowState.Minimized;
+        }
+
+      
+        private void ChamarSubTela(UserControl tela, string tipo = "")
+        {
+            Form1 formPai = this.ParentForm as Form1;
+
+            if (formPai != null)
+            {
+                formPai.ChamarMineTela(tela, nivelAcesso: tipo);
+            }
+        }
+
+        private void VoltarFuncionario_DoubleClick(object sender, EventArgs e)
+        {
+            Form1.BostarLogoParaEstoque = false;
+            ChamarSubTela(new TelaIntermediaria());
+        }
+
+        private void VoltarLLogin_DoubleClick(object sender, EventArgs e)
+        {
+            Form1.BostarLogoParaEstoque = false;
             Program.voltar = true;
             this.ParentForm.Close();
+        }
+
+        private void VoltarFuncionario_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

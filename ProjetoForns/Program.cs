@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ProjetoForns
@@ -22,6 +19,7 @@ namespace ProjetoForns
             
             do
             {
+              
                 TelaLogin login = new TelaLogin();
                 voltar = false;
                 if (login.ShowDialog() == DialogResult.OK) Application.Run(new Form1()); ;

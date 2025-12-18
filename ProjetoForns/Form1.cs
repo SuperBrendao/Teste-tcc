@@ -17,48 +17,96 @@ namespace ProjetoForns
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
-            ChamarBase();
+            ChamarBase("Principal");
         }
 
-        private void ChamarBase()
-        { 
-            if (Program.acessoRegular == "1")//Gerente
-            {
-                ChamarConsoleUser(new MenuGerente(), "Menu");
-            }
-            else if (Program.acessoRegular == "2")//Estoque
-            {
-                ChamarConsoleUser(new MenuEstoque(),"Menu");
-            }
-            else//Estoquista 
-            {
-                ChamarConsoleUser(new TelaVenda(), "");
-            }
+       public static bool BostarLogoParaEstoque = false;
 
-            ChamarConsoleUser(new Cabesario(), "cabesario");
+        private void ChamarBase(string nivelAcesso,UserControl controle=null)
+        {
+            if (nivelAcesso == "Principal")
+            {
+                ChamarTelaPrincipal();//ou MenuGerente ou TelaDeEscolha
+                ChamarConsoleUser(new Cabesario(naoMostar2: "VoltarFuncionario"), "cabesario");
+            }
+            else 
+            {
+                
+                ChamarTelaFuncionario(nivelAcesso, controle: controle);//ou Vendedor ou Estoque
+                ChamarConsoleUser(new Cabesario(), "cabesario");
+            }
+                
         }
+
+
+
+        private void ChamarTelaPrincipal() 
+        {
+            switch (Program.acessoRegular)//valor é definico no momento do login
+            {
+                case "1":
+                    ChamarConsoleUser(new TelaLogo(), "full");
+                    ChamarConsoleUser(new MenuGerente(), "Menu");
+                    break;
+                case "2":
+                case "3":
+                    ChamarConsoleUser(new TelaIntermediaria(), "full");
+                    break;
+            }
+        }
+
+
+
+        private void ChamarTelaFuncionario(string nivelAcesso, UserControl controle = null) 
+        {
+            
+            if (nivelAcesso == "estoque")
+            {
+                
+
+                if (controle != null )
+                {
+                    if (BostarLogoParaEstoque == false) { controle = new TelaLogo(); BostarLogoParaEstoque = true; }
+                    
+                    ChamarConsoleUser(controle, "full");
+                   
+                }
+               
+
+                
+                    ChamarConsoleUser(new MenuEstoque(), "Menu");
+               
+            }
+            else if (nivelAcesso == "venda")
+            {
+                ChamarConsoleUser(new TelaVenda(), "Full");
+            }
+        }
+      
+
 
         private void ChamarConsoleUser(Control Tela,string tipo)
         {
             Controls.Add(Tela);
             Tela.Dock = (tipo == "cabesario") ? DockStyle.Top : (tipo == "Menu") ? DockStyle.Left : DockStyle.Fill;
         }
-        private void button1_Click(object sender, EventArgs e)
+
+
+
+        public void ExibirUserControl(UserControl novoControl, string nivelAcesso = "")
         {
-            Program.voltar = true;
-            this.Close();
+      
+            Controls.Clear();
+            ChamarBase((nivelAcesso == "") ?"Principal": nivelAcesso,controle: novoControl);
+            if (nivelAcesso == "") { ChamarConsoleUser(novoControl, "mini"); }
+            novoControl.BringToFront(); 
         }
 
-        public void ExibirUserControl(UserControl novoControl)
-    {
-        // 1. Limpa todos os controles existentes no painel
-        Controls.Clear();
-        
-        ChamarBase();
-        ChamarConsoleUser(novoControl,"mini");
-        
-        // Opcional: Traz o novo controle para frente, caso haja sobreposição
-        novoControl.BringToFront(); 
-    }
+
+
+        public void ChamarMineTela(UserControl Tela, string nivelAcesso)
+        { 
+               ExibirUserControl(Tela, nivelAcesso: nivelAcesso);
+        }
     }
 }

@@ -34,7 +34,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(231, 137);
+            this.label1.Location = new System.Drawing.Point(348, 246);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(62, 13);
             this.label1.TabIndex = 0;
@@ -47,7 +47,7 @@
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Controls.Add(this.label1);
             this.Name = "TelaVenda";
-            this.Size = new System.Drawing.Size(549, 331);
+            this.Size = new System.Drawing.Size(818, 489);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -9,7 +9,7 @@ namespace ProjetoForns
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
-            ChamarConsoleUser(new Cabesario());
+            ChamarConsoleUser(new Cabesario(naoMostar1:"VoltarLogin",naoMostar2:"VoltarFuncionario"));
         }
         private void ChamarConsoleUser(Control Tela)
         {

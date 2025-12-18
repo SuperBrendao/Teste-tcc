@@ -14,7 +14,6 @@ C:\ProjetoBrendo\ProjetoForns\ProjetoForns\obj\Debug\ProjetoForns.CadFuncionario
 C:\ProjetoBrendo\ProjetoForns\ProjetoForns\obj\Debug\ProjetoForns.PermicaoTemp.resources
 C:\ProjetoBrendo\ProjetoForns\ProjetoForns\obj\Debug\ProjetoForns.VisualizarSolicitacao.resources
 C:\Users\odair\User\Desktop\ProjetoForns\ProjetoForns\ProjetoForns\obj\Debug\ProjetoForns.csproj.AssemblyReference.cache
-C:\Users\odair\User\Desktop\ProjetoForns\ProjetoForns\ProjetoForns\obj\Debug\ProjetoForns.exe.config
 C:\Users\odair\User\Desktop\ProjetoForns\ProjetoForns\ProjetoForns\obj\Debug\ProjetoForns.Cabesario.resources
 C:\Users\odair\User\Desktop\ProjetoForns\ProjetoForns\ProjetoForns\obj\Debug\ProjetoForns.CadFuncionario.resources
 C:\Users\odair\User\Desktop\ProjetoForns\ProjetoForns\ProjetoForns\obj\Debug\ProjetoForns.Form1.resources
@@ -33,3 +32,10 @@ C:\Users\odair\User\Desktop\ProjetoForns\ProjetoForns\ProjetoForns\obj\Debug\Pro
 C:\Users\odair\User\Desktop\ProjetoForns\ProjetoForns\ProjetoForns\obj\Debug\ProjetoForns.MovimentacaoFun.resources
 C:\Users\odair\User\Desktop\ProjetoForns\ProjetoForns\ProjetoForns\obj\Debug\ProjetoForns.MenuEstoque.resources
 C:\Users\odair\User\Desktop\ProjetoForns\ProjetoForns\ProjetoForns\obj\Debug\ProjetoForns.TelaVenda.resources
+C:\Users\odair\User\Desktop\ProjetoForns\ProjetoForns\ProjetoForns\obj\Debug\ProjetoForns.TelaIntermediaria.resources
+C:\Users\odair\User\Desktop\ProjetoForns\ProjetoForns\ProjetoForns\obj\Debug\ProjetoForns.exe.config
+C:\Users\odair\User\Desktop\ProjetoForns\ProjetoForns\ProjetoForns\obj\Debug\ProjetoForns.CadastrarProduto.resources
+C:\Users\odair\User\Desktop\ProjetoForns\ProjetoForns\ProjetoForns\obj\Debug\ProjetoForns.DarBaixaEstoque.resources
+C:\Users\odair\User\Desktop\ProjetoForns\ProjetoForns\ProjetoForns\obj\Debug\ProjetoForns.SolicitacaoReposicao.resources
+C:\Users\odair\User\Desktop\ProjetoForns\ProjetoForns\ProjetoForns\obj\Debug\ProjetoForns.VisualizarEstoque.resources
+C:\Users\odair\User\Desktop\ProjetoForns\ProjetoForns\ProjetoForns\obj\Debug\ProjetoForns.TelaLogo.resources
